@@ -11,5 +11,5 @@ Rectangulo=A*B
 print("TRIANGULO: {:.3f}".format(Triangulo))
 print("CIRCULO: {:.3f}".format(Circulo))
 print("TRAPEZIO: {:.3f}".format(Trapezio))
-print("CUADRADO: {:.3f}".format(Cuadrado))
-print("RECTANGULO: {:.3f}".format(Rectangulo))
+print("QUADRADO: {:.3f}".format(Cuadrado))
+print("RETANGULO: {:.3f}".format(Rectangulo))
