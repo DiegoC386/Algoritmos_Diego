@@ -1,2 +1,3 @@
 distance=int(input())
-print('{distance*2} minutos')
+F=distance*2
+print(format(F) + " minutos")
