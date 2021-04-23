@@ -7,7 +7,7 @@ Triangulo=(A*C)/2
 Circulo=Pi*(C**2)
 Trapezio=((A+B)/2)*C
 Cuadrado=B*B
-Rectangulo=A*C
+Rectangulo=A*B
 print("TRIANGULO: {:.3f}".format(Triangulo))
 print("CIRCULO: {:.3f}".format(Circulo))
 print("TRAPEZIO: {:.3f}".format(Trapezio))
