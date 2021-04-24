@@ -16,4 +16,6 @@ if(sb<900000):
   print("Salario neto es igual: "+str(cn))
 else:
   cn=sb+(sb*0.12)
-  print("Salario neto es igual: "+str(cn))  
+  print("Salario neto es igual: "+str(cn)) 
+	
+	 
