@@ -4,8 +4,8 @@ siguiente expresión: P3 + Q4 – 2*P2 > 680. En caso afirmativo debe mostrar lo
 valores de “P y Q satisfacen la expresión”, de lo contrario muestre un mensaje
 “P y Q no Satisfacen la expresión”. Utilice la concatenación para mostrar los valores
 """
-P=int(input())
-Q=int(input())
+P=int(input("Ingrese primer numero: "))
+Q=int(input("Ingrese segundo numero: "))
 if((P**3)+(Q**4)-(2*(P**2))>680):
 	print("Los valores que satisfacen la expresión son: " + ' {} y {}'.format(P, Q))
 else:

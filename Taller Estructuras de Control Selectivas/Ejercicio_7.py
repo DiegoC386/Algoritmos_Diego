@@ -2,7 +2,7 @@
 Una compañía de alquiler de automóviles sin conductor, desea calcular y mostrar
 lo que debe pagar cada cliente, de acuerdo a las siguientes condiciones:
 """
-Km=int(input())
+Km=int(input("Ingrese Kilometros recorridos: "))
 if(Km>0 and Km<300):
 	Paga=50000
 	print("Total a pagar es: $ {:.0f}".format(Paga))

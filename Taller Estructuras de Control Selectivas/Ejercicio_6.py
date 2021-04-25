@@ -5,10 +5,10 @@ siguientes ejemplos: Si A es 2, B es 3, C es 6 y D es 2, entonces N es 2362 y el
 resultado redondeado es 2400. Si N es 2342, el resultado redondeado será 2300 y
 si N es 2962, el resultado redondeado será 3000.
 """
-A=int(input()) #Miles
-B=int(input()) #Centenas
-C=int(input()) #decenas
-D=int(input()) #unidades
+A=int(input("Ingrese primer digito: ")) #Miles
+B=int(input("Ingrese segundo digito: ")) #Centenas
+C=int(input("Ingrese tercer digito: ")) #decenas
+D=int(input("Ingrese cuarto digito: ")) #unidades
 if (C>=5):
 	A1=A*1000
 	B1=B*100

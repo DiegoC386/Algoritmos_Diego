@@ -12,8 +12,8 @@ e.	Si el monto es mayor a $15000, hay un 25% de descuento.
 Calcule y muestre el nombre del cliente, el monto de la compra, monto a pagar
 y descuento recibido.
 """
-Nombre=input()
-Compra=int(input())
+Nombre=input("Ingrese su nombre: ")
+Compra=int(input("Ingrese Precio de la Compra: "))
 if(Compra>0 and Compra<50000):
 	print("Nombre del cliente: "+ str(Nombre))
 	print("Monto de la compra: $ {:.0f}".format(Compra))

@@ -3,7 +3,7 @@ Construya un programa en Python que, dados como datos la categoría y el sueldo 
 del trabajador, calcule el aumento correspondiente teniendo en cuenta la siguiente tabla:
 Como salida, mostrar la categoría del trabajador y su nuevo sueldo bruto.
 """
-SueldoBruto=int(input())
+SueldoBruto=int(input("Ingrese Sueldo Bruto: "))
 if(SueldoBruto<=900000 ):
 	NuevoSueldo= (SueldoBruto*0.6)+SueldoBruto
 	print("Su Nuevo Sueldo es: $ {:.0f}".format(NuevoSueldo))

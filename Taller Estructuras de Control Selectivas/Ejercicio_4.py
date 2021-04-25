@@ -13,8 +13,8 @@ pagar a crédito, el monto a pagar por intereses y si es necesario la cantidad p
 al banco.
 """
 
-Piezas=int(input())
-CostoPiezas=int(input())
+Piezas=int(input("Ingrese Cantidad de Piezas: "))
+CostoPiezas=int(input("Ingrese Costo de Piezas: "))
 Total=Piezas*CostoPiezas
 if (Total>5000000):
 	Invertir=Total*0.55
