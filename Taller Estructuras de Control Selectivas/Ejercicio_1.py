@@ -4,8 +4,8 @@ sobre la cantidad que tiene en inversión en el banco. El decidirá reinvertir
 los intereses siempre y cuando éstos excedan a $100.000 COP y en ese caso,
 desea saber cuánto dinero tendrá finalmente en su cuenta.
 """
-Cap=int(input())
-InvBan=float(input())
+Cap=int(input("Ingrese Capital: "))
+InvBan=float(input("Ingrese Inversión en el Banco: "))
 Int=(InvBan/100)*Cap
 if (Int>=100000):
 	Capf= Cap+Int
