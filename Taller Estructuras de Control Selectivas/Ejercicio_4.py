@@ -36,3 +36,5 @@ elif (Total>0 and Total<5000000):
 	print("Intereses: $ {:.1f}".format(Intereses))
 else:
 	print("Error al digitar")
+
+	

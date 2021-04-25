@@ -8,6 +8,7 @@ temperatura---float--t
 Salida
 tipo_de_natacion-->str--tipo
 """
+
 t=float(input("Digite temperatura: "))
 if(t>85):
   print("natación")
