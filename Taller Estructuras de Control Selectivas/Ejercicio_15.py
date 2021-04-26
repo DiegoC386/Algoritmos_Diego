@@ -39,3 +39,5 @@ elif((Edad>180 and  Genero==0)and (Nivel>=14.0)):
   print ("Negativo para Anemia")
 else:
 	print("ERROR")
+
+	
