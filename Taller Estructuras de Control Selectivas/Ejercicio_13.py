@@ -6,7 +6,14 @@ correspondiente; así como su edad. Considere la siguiente tabla de signos:
 Dia=int(input("Digite Día de Nacimiento: "))
 Mes=int(input("Digite Mes de Nacimiento: "))
 Año=int(input("Digite Año de Nacimiento: "))
-Edad=2021-Año
+MesActual=int(input("Digite Mes Actual: "))
+AñoActual=int(input("Digite Año Actual: "))
+MesEdad=MesActual-Mes
+Edad=AñoActual-Año
+if(MesEdad<0):
+	Edad=Edad-1
+else:
+	Edad=Edad
 if(Dia>=22 and Mes==11) or (Dia<=21 and Mes==12):
 	Signo="Sagitario"
 	print("Su Signo Zodiacal es: " +str(Signo))
